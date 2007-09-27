@@ -1,0 +1,17 @@
+include *.txt
+include MANIFEST.in
+include setup.py
+include setup.cfg
+include INSTALL
+include LICENSE
+include README
+
+include flud/FludNode.tac
+
+recursive-include flud/coding *.c *.c++ *.cpp *.h 
+recursive-include flud/coding bootstrap
+recursive-include flud/coding configure.ac
+recursive-include flud/coding Makefile.am
+recursive-include flud/images *.png
+
+recursive-include flud/coding/ldpc Makefile*
