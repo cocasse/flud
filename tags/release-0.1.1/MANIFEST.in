@@ -1,0 +1,11 @@
+include *.txt
+include MANIFEST.in
+include setup.py
+include setup.cfg
+include INSTALL
+include LICENSE
+include README
+
+include flud/FludNode.tac
+
+recursive-include flud/images *.png
